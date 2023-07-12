@@ -32,4 +32,4 @@ jobs:
         mvn -B package --file pom.xml
         pwd
         ls -la
-        java -jar hello.world-1.0.0-jar-with-dependencies.jar
+        java -jar target/hello.world-1.0.0-jar-with-dependencies.jar
